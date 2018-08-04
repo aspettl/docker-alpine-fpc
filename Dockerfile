@@ -1,6 +1,6 @@
 FROM alpine:3.8
 
-ENV FPC_VERSION="3.0.4" \
+ENV FPC_VERSION="2.6.4" \
     FPC_ARCH="x86_64-linux"
 
 RUN apk add --no-cache binutils && \
